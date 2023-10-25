@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 export default function Admin(){
   useEffect(()=>{
-    import('decap-cms-app')
+    /* import('decap-cms-app')
       .then(({default: CMS}) => CMS.init({
         config:{
           media_folder:'/media',
@@ -28,7 +28,7 @@ export default function Admin(){
             name: 'git-gateway'
           }
         }
-      }))
+      })) */
 
   }, [])
 }
