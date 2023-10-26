@@ -11,7 +11,9 @@ collections:
     files:
     - label: "Home"
       name: "home"
+      format: "json"
       file: "content/home.json"
+      extension: "json"
       create: true
       fields:
         - { label: "Title", name: "title", widget: "string"}
