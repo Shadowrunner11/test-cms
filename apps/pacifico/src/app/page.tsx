@@ -6,10 +6,10 @@ import home from '../../../../content/home.json'
 export default function Home() {
   return (
     <main className={styles.main}>
+      <p>
+        {home.title}
+      </p>
       <div className={styles.description}>
-        <p>
-          {home.title}
-        </p>
         {
           home.cats.map(({name})=><div key={name}>{name}</div>)
         }
